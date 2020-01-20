@@ -12,6 +12,7 @@ gunicorn = "*"
 requests = "*"
 djangorestframework = "*"
 djangorestframework-jwt = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

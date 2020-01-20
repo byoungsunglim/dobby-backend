@@ -14,11 +14,11 @@ def photos(request, query):
         'count': 30,
         'query': query 
     }
-    res = requests.get(url, params=params)
+    result = requests.get(url, params=params)
 
-    print(res.json())
+    print(result.json())
 
-    return HttpResponse(res, content_type="application/json")
+    return HttpResponse(result, content_type="application/json")
 
     
 
