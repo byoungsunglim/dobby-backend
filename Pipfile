@@ -13,6 +13,9 @@ requests = "*"
 djangorestframework = "*"
 djangorestframework-jwt = "*"
 pillow = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
